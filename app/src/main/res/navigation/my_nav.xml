@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splash_screen">
+
+    <fragment
+        android:id="@+id/splash_screen"
+        android:name="com.example.routetrackerapp.splash_screen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splash_screen_to_viewPager"
+            app:destination="@id/viewPager" />
+        <action
+            android:id="@+id/action_splash_screen_to_login2"
+            app:destination="@id/login2" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPager"
+        android:name="com.example.routetrackerapp.ViewPager"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPager_to_login2"
+            app:destination="@id/login2" />
+    </fragment>
+    <activity
+        android:id="@+id/login2"
+        android:name="com.example.routetrackerapp.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+</navigation>

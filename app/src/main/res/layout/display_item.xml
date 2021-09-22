@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="App user's email"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/last_updated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Last updated"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/see_route_in_googleMaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="See route of app user in google maps"
+            android:textAllCaps="false"
+            android:textColor="#049F9F"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/DeleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginVertical="4dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Delete tracking history"
+            android:textAllCaps="false"
+
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

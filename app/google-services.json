@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "697943429234",
+    "firebase_url": "https://routetrackerapp-3bb4f-default-rtdb.firebaseio.com",
+    "project_id": "routetrackerapp-3bb4f",
+    "storage_bucket": "routetrackerapp-3bb4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697943429234:android:5f3f31d73dbd5fdd6df2eb",
+        "android_client_info": {
+          "package_name": "com.example.routetrackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697943429234-2h2sh4k42f9gpvfd0vm9um10jh4b5iva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUPuLc1g0WVrxcjzZWX48Y-1BS__CASLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697943429234-2h2sh4k42f9gpvfd0vm9um10jh4b5iva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
